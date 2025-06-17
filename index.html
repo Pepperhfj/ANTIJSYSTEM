@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANTI-J</title>
-    <link rel="icon" type="image/x-icon" href="assets/kikiheart.png">
     <style>
         body {
             margin-top: 200px;
@@ -63,7 +62,7 @@
    
         #painLevels {
             display: inline-flex;
-            column-gap: 35px;
+            column-gap: 38px;
         }
  
         #lvl {
@@ -76,17 +75,45 @@
         #increaser {
             border: solid;
             border-color: #ff048c;
-            width: 80px;
+            width: 100px;
             padding: 8px;
             color: #ff048c;
+            font-size: 16px;
+            font-family: monospace;
+            background-color: black;
+        }
+
+        #increaser:focus {
+            border: solid;
+            border-color: #b60064;
+            width: 100px;
+            padding: 8px;
+            color: #ff068f;
+            font-size: 16px;
+            font-family: monospace;
+            background-color: black;
         }
 
         #decreaser {
             border: solid;
             border-color: #ff048c;
-            width: 80px;
+            width: 100px;
             padding: 8px;
             color: #ff048c;
+            font-size: 16px;
+            font-family: monospace;
+            background-color: black;
+        }
+
+        #decreaser:focus {
+            border: solid;
+            border-color: #b60064;
+            width: 100px;
+            padding: 8px;
+            color: #ff068f;
+            font-size: 16px;
+            font-family: monospace;
+            background-color: black;
         }
 
     </style>
@@ -104,8 +131,8 @@
     <p id="lvl">0</p>
     <div id="painContainer">
     <div id="painLevels">
-     <div id="increaser">+</div>
-     <div id="decreaser"><strong>—</strong></div>
+     <button id="increaser">+</button>
+     <button id="decreaser"><strong>—</strong></button>
     </div>
     </div>
    </div>
