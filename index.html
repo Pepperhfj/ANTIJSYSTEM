@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTI-J</title>
+    <style>
+        body {
+            margin-top: 200px;
+            background-color: black;
+        }
+        
+        #container {
+            border: solid;
+            border-color: #ff048c;
+            width: 360px;
+            height: 320px;
+        }
+
+        #heart {
+            width: 45px;
+            margin-top: 20px;
+        }
+
+        #barTitle {
+            display: inline-flex;
+            column-gap: 94px;
+            margin-top: 15px;
+            font-family: monospace;
+            border: solid;
+            border-color: #ff048c;
+            color: #ff048c;
+            width: 330px;
+            height: 50px;
+        }
+
+        #barTitleText {
+            margin-left: 10px;
+            margin-top: 18px;
+        }
+
+        #closeBar {
+            margin-left: 85px;
+            margin-top: 15px;
+            border: solid;
+            border-color: #ff048c;
+            width: 20px;
+            height: 17px;
+        }
+
+        #windowContents {
+            border: solid;
+            border-color: #ff048c;
+            margin-top: 20px;
+            width: 300px;
+            height: 200px;
+        }
+
+        #painContainer {
+            margin-top: 25px;
+        }
+   
+        #painLevels {
+            display: inline-flex;
+            column-gap: 35px;
+        }
+ 
+        #lvl {
+            margin-top: 24px;
+            color: #ff048c;
+            font-size: 22px;
+            font-family: monospace;
+        }
+
+        #increaser {
+            border: solid;
+            border-color: #ff048c;
+            width: 80px;
+            padding: 8px;
+            color: #ff048c;
+        }
+
+        #decreaser {
+            border: solid;
+            border-color: #ff048c;
+            width: 80px;
+            padding: 8px;
+            color: #ff048c;
+        }
+
+    </style>
+</head>
+<body>
+<center>
+<div id="container">
+    <div id="barTitle">
+   <p id="barTitleText">ANTI-J SYSTEM.</p>
+   <p id="closeBar">x</p>
+   </div>
+
+   <div id="windowContents">
+    <img id="heart" src="assets/kikiheart.png">
+    <p id="lvl">0</p>
+    <div id="painContainer">
+    <div id="painLevels">
+     <div id="increaser">+</div>
+     <div id="decreaser"><strong>—</strong></div>
+    </div>
+    </div>
+   </div>
+</div>
+
+<script src="script.js"></script>
+</center>
+</body>
+</html>
