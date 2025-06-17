@@ -8,7 +8,7 @@ const painLvls = document.getElementById('lvl');
 plusButton.addEventListener ("click", () =>
     {painLvls.textContent++});
 
-minusButtonButton.addEventListener ("click", () =>
+minusButton.addEventListener ("click", () =>
     {painLvls.textContent--});
 
 // End of line >:3
